@@ -39,7 +39,7 @@ namespace ProyectoeCommerce
                 w.HasOne(w => w.Usuario)
                  .WithMany()
                  .HasForeignKey(w => w.UsuarioId)
-                 .OnDelete(DeleteBehavior.Restrict);
+                 .OnDelete(DeleteBehavior.Cascade);
             });
 
             modelBuilder.Entity<WishlistProducto>(wp =>
@@ -49,17 +49,18 @@ namespace ProyectoeCommerce
                 wp.HasOne(wp => wp.Producto)
                   .WithMany()
                   .HasForeignKey(wp => wp.ProductoId)
-                  .OnDelete(DeleteBehavior.Restrict);
+                  .OnDelete(DeleteBehavior.Cascade);
 
                 wp.HasOne(wp => wp.Wishlist)
                   .WithMany(w => w.WishlistProductos)
                   .HasForeignKey(wp => wp.WishlistId)
-                  .OnDelete(DeleteBehavior.Restrict);
+                  .OnDelete(DeleteBehavior.Cascade);
 
                 wp.Property(wp => wp.Nombre).IsRequired().HasMaxLength(100);
                 wp.Property(wp => wp.FechaCreacion).IsRequired().HasDefaultValueSql("GETDATE()");
                 wp.Property(wp => wp.FechaProductoAgregado).IsRequired();
             });
+
 
             // Datos Iniciales
             modelBuilder.Entity<Usuario>().HasData(

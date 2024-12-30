@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Migrations\\20241230154638_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241230154638_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\gonza\\desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\proyectoecommerce\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Migrations\\20241230154622_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241230154622_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\gonza\\desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\proyectoecommerce\\models\\entity\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:models\\entity\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\gonza\\desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\proyectoecommerce\\models\\entity\\wishlistproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:models\\entity\\wishlistproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\gonza\\desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\proyectoecommerce\\models\\entity\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:models\\entity\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\gonza\\desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\proyectoecommerce\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Migrations\\20241230181736_primera-migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241230181736_primera-migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\gonza\\desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\proyectoecommerce\\ecommercecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:ecommercecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Migrations\\20241230154622_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241230154622_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\gonza\\desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\proyectoecommerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -43,20 +63,8 @@
       "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\gonza\\desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\proyectoecommerce\\models\\entity\\wishlistproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:models\\entity\\wishlistproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\gonza\\desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\proyectoecommerce\\models\\entity\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:models\\entity\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\gonza\\desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\proyectoecommerce\\models\\entity\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:models\\entity\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\gonza\\desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\proyectoecommerce\\models\\entity\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:models\\entity\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -79,45 +87,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20241230154638_test.cs",
-              "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Migrations\\20241230154638_test.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241230154638_test.cs",
-              "ToolTip": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Migrations\\20241230154638_test.cs",
-              "RelativeToolTip": "Migrations\\20241230154638_test.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "Controllers\\ProductoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T15:46:38.417Z",
+              "WhenOpened": "2024-12-30T18:22:25.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20241230154622_test.cs",
-              "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Migrations\\20241230154622_test.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241230154622_test.cs",
-              "ToolTip": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Migrations\\20241230154622_test.cs",
-              "RelativeToolTip": "Migrations\\20241230154622_test.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T15:46:22.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProyectoeCommerce.http",
-              "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\ProyectoeCommerce.http",
-              "RelativeDocumentMoniker": "ProyectoeCommerce.http",
-              "ToolTip": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\ProyectoeCommerce.http",
-              "RelativeToolTip": "ProyectoeCommerce.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-12-30T15:36:41.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "20241230153610_primera-migracion.cs",
               "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Migrations\\20241230153610_primera-migracion.cs",
               "RelativeDocumentMoniker": "Migrations\\20241230153610_primera-migracion.cs",
@@ -125,12 +107,11 @@
               "RelativeToolTip": "Migrations\\20241230153610_primera-migracion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T15:36:10.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T15:36:10.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "20241230153339_primera-migracion.cs",
               "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Migrations\\20241230153339_primera-migracion.cs",
               "RelativeDocumentMoniker": "Migrations\\20241230153339_primera-migracion.cs",
@@ -138,18 +119,94 @@
               "RelativeToolTip": "Migrations\\20241230153339_primera-migracion.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T15:33:39.941Z",
+              "WhenOpened": "2024-12-30T15:33:39.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Models\\Entity\\Producto.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Producto.cs",
+              "ToolTip": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Models\\Entity\\Producto.cs",
+              "RelativeToolTip": "Models\\Entity\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T19:12:09.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Wishlist.cs",
+              "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Models\\Entity\\Wishlist.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Wishlist.cs",
+              "ToolTip": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Models\\Entity\\Wishlist.cs",
+              "RelativeToolTip": "Models\\Entity\\Wishlist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T19:13:31.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "WishlistProducto.cs",
+              "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Models\\Entity\\WishlistProducto.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\WishlistProducto.cs",
+              "ToolTip": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Models\\Entity\\WishlistProducto.cs",
+              "RelativeToolTip": "Models\\Entity\\WishlistProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T19:16:35.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T17:37:13.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20241230181736_primera-migracion.cs",
+              "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Migrations\\20241230181736_primera-migracion.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241230181736_primera-migracion.cs",
+              "ToolTip": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Migrations\\20241230181736_primera-migracion.cs",
+              "RelativeToolTip": "Migrations\\20241230181736_primera-migracion.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T18:17:36.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProyectoeCommerce.http",
+              "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\ProyectoeCommerce.http",
+              "RelativeDocumentMoniker": "ProyectoeCommerce.http",
+              "ToolTip": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\ProyectoeCommerce.http",
+              "RelativeToolTip": "ProyectoeCommerce.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-12-30T15:36:41.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "eCommerceContext.cs",
               "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\eCommerceContext.cs",
               "RelativeDocumentMoniker": "eCommerceContext.cs",
               "ToolTip": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\eCommerceContext.cs",
               "RelativeToolTip": "eCommerceContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAHoAAAAAAAAAAAD4v0oAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T19:21:42.207Z",
               "EditorCaption": ""
@@ -157,6 +214,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "20241230154622_test.cs",
+              "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Migrations\\20241230154622_test.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241230154622_test.cs",
+              "ToolTip": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Migrations\\20241230154622_test.cs",
+              "RelativeToolTip": "Migrations\\20241230154622_test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T15:46:22.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "20241230153241_primera-migracion.cs",
               "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Migrations\\20241230153241_primera-migracion.cs",
               "RelativeDocumentMoniker": "Migrations\\20241230153241_primera-migracion.cs",
@@ -164,12 +233,11 @@
               "RelativeToolTip": "Migrations\\20241230153241_primera-migracion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T15:32:41.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T15:32:41.439Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -177,12 +245,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-29T19:59:13.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T19:59:13.813Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ProyectoeCommerce.csproj",
               "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\ProyectoeCommerce.csproj",
               "RelativeDocumentMoniker": "ProyectoeCommerce.csproj",
@@ -194,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -206,43 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Models\\Entity\\Producto.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\Producto.cs",
-              "ToolTip": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Models\\Entity\\Producto.cs",
-              "RelativeToolTip": "Models\\Entity\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T19:12:09.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WishlistProducto.cs",
-              "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Models\\Entity\\WishlistProducto.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\WishlistProducto.cs",
-              "ToolTip": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Models\\Entity\\WishlistProducto.cs",
-              "RelativeToolTip": "Models\\Entity\\WishlistProducto.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA5wAwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T19:16:35.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Wishlist.cs",
-              "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Models\\Entity\\Wishlist.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\Wishlist.cs",
-              "ToolTip": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Models\\Entity\\Wishlist.cs",
-              "RelativeToolTip": "Models\\Entity\\Wishlist.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T19:13:31.231Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\Models\\Entity\\Usuario.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\Usuario.cs",
