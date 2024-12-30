@@ -5175,11 +5175,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gonza\\source\\repos\\ProyectoeCommerce\\ProyectoeCommerce.csproj",
+      "projectUniqueName": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\ProyectoeCommerce.csproj",
       "projectName": "ProyectoeCommerce",
-      "projectPath": "C:\\Users\\gonza\\source\\repos\\ProyectoeCommerce\\ProyectoeCommerce.csproj",
+      "projectPath": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\ProyectoeCommerce.csproj",
       "packagesPath": "C:\\Users\\gonza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gonza\\source\\repos\\ProyectoeCommerce\\obj\\",
+      "outputPath": "C:\\Users\\gonza\\Desktop\\crombie-ecommerce-prueba-seeds\\crombie-ecommerce-prueba-seeds\\ProyectoeCommerce\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gonza\\AppData\\Roaming\\NuGet\\NuGet.Config",
