@@ -5170,25 +5170,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gonza\\.nuget\\packages\\": {}
+    "C:\\Users\\Alfred\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gonza\\source\\repos\\ProyectoeCommerce\\ProyectoeCommerce.csproj",
+      "projectUniqueName": "C:\\Users\\Alfred\\Source\\Repos\\crombie-ecommerce\\ProyectoeCommerce\\ProyectoeCommerce.csproj",
       "projectName": "ProyectoeCommerce",
-      "projectPath": "C:\\Users\\gonza\\source\\repos\\ProyectoeCommerce\\ProyectoeCommerce.csproj",
-      "packagesPath": "C:\\Users\\gonza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gonza\\source\\repos\\ProyectoeCommerce\\obj\\",
+      "projectPath": "C:\\Users\\Alfred\\Source\\Repos\\crombie-ecommerce\\ProyectoeCommerce\\ProyectoeCommerce.csproj",
+      "packagesPath": "C:\\Users\\Alfred\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alfred\\Source\\Repos\\crombie-ecommerce\\ProyectoeCommerce\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gonza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alfred\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
