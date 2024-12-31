@@ -118,19 +118,29 @@ namespace ProyectoeCommerce.Controllers
         }
 
         // DELETE: api/WishlistProductoes/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteWishlistProducto(int id)
+        [HttpDelete("{productoId}/{wishlistId}")]
+        public async Task<IActionResult> DeleteWishlistProducto(int productoId, int wishlistId)
         {
-            var wishlistProducto = await _context.WishlistProductos.FindAsync(id);
+            var wishlistProducto = await _context.WishlistProductos.FirstOrDefaultAsync(wp => wp.ProductoId == productoId && wp.WishlistId == wishlistId);
             if (wishlistProducto == null)
             {
-                return NotFound();
+                return NotFound("no se encontró el elemento wishlistProducto");
             }
 
             _context.WishlistProductos.Remove(wishlistProducto);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
+            try
+            {
+                await _context.SaveChangesAsync();
+                return Ok(new
+                {
+                    mensaje="el producto ha sido eliminado",
+                    status=200
+                }); 
+            }
+            catch (DbUpdateException ex)
+            {
+                return StatusCode(500, $"Error al eliminar el recurso: {ex.Message}");
+            }
         }
 
         private bool WishlistProductoExists(int id)
