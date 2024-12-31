@@ -12,8 +12,8 @@ using ProyectoeCommerce;
 namespace ProyectoeCommerce.Migrations
 {
     [DbContext(typeof(eCommerceContext))]
-    [Migration("20241230181736_primera-migracion")]
-    partial class primeramigracion
+    [Migration("20241230200426_first")]
+    partial class first
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
