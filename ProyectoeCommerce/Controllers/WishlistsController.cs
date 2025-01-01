@@ -117,7 +117,7 @@ namespace ProyectoeCommerce.Controllers
 
             return CreatedAtAction(nameof(GetWishlist), new { id = newWishlist.Id }, newWishlist);
         }
-
+        /*
         // DELETE: api/Wishlists/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteWishlist(int id)
@@ -138,5 +138,6 @@ namespace ProyectoeCommerce.Controllers
         {
             return _context.Wishlists.Any(e => e.Id == id);
         }
+         */
     }
 }

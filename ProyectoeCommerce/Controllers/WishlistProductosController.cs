@@ -143,6 +143,41 @@ namespace ProyectoeCommerce.Controllers
             }
         }
 
+        [HttpPost("AddProduct")]
+        public async Task<IActionResult> AddProductToWishlist(int wishlistId, int productoId)
+        {
+            
+            var wishlist = await _context.Wishlists.FindAsync(wishlistId);
+            if (wishlist == null)
+                return NotFound(new { message = $"Wishlist con ID {wishlistId} no encontrada." });
+
+            
+            var producto = await _context.Productos.FindAsync(productoId);
+            if (producto == null)
+                return NotFound(new { message = $"Producto con ID {productoId} no encontrado." });
+
+            
+            var exists = await _context.WishlistProductos
+                .AnyAsync(wp => wp.WishlistId == wishlistId && wp.ProductoId == productoId);
+            if (exists)
+                return BadRequest(new { message = "El producto ya está en la wishlist." });
+
+            
+            var wishlistProducto = new WishlistProducto
+            {
+                WishlistId = wishlistId,
+                ProductoId = productoId,
+                Nombre =  producto.Nombre, 
+                FechaCreacion = DateTime.Now,
+                FechaProductoAgregado = DateTime.Now
+            };
+
+            _context.WishlistProductos.Add(wishlistProducto);
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "Producto agregado a la wishlist correctamente." });
+        }
+
         private bool WishlistProductoExists(int id)
         {
             return _context.WishlistProductos.Any(e => e.ProductoId == id);

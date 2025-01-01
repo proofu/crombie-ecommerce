@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Alfred\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\alfred\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\controllers\\wishlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:controllers\\wishlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\alfred\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\controllers\\wishlistproductoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:controllers\\wishlistproductoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\alfred\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\dtos\\wishlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:dtos\\wishlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\alfred\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\controllers\\wishlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:controllers\\wishlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\alfred\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\models\\entity\\wishlistproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,6 +23,10 @@
       "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:ecommercecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\alfred\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\dtos\\wishlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:dtos\\wishlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\alfred\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\migrations\\20241231195758_addrelationshipwishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:migrations\\20241231195758_addrelationshipwishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +50,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "WishlistProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\Alfred\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Controllers\\WishlistProductosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WishlistProductosController.cs",
+              "ToolTip": "C:\\Users\\Alfred\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Controllers\\WishlistProductosController.cs",
+              "RelativeToolTip": "Controllers\\WishlistProductosController.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAgwJIAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:10:58.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "WishlistDTO.cs",
               "DocumentMoniker": "C:\\Users\\Alfred\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\DTOs\\WishlistDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\WishlistDTO.cs",
@@ -66,7 +83,8 @@
               "RelativeToolTip": "Models\\Entity\\WishlistProducto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T20:29:01.831Z"
+              "WhenOpened": "2024-12-31T20:29:01.831Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -78,11 +96,12 @@
               "RelativeToolTip": "Models\\Entity\\Wishlist.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T20:29:02.651Z"
+              "WhenOpened": "2024-12-31T20:29:02.651Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "20241231195758_addRelationshipWishlist.cs",
               "DocumentMoniker": "C:\\Users\\Alfred\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Migrations\\20241231195758_addRelationshipWishlist.cs",
               "RelativeDocumentMoniker": "Migrations\\20241231195758_addRelationshipWishlist.cs",
@@ -94,13 +113,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "WishlistsController.cs",
               "DocumentMoniker": "C:\\Users\\Alfred\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Controllers\\WishlistsController.cs",
               "RelativeDocumentMoniker": "Controllers\\WishlistsController.cs",
-              "ToolTip": "C:\\Users\\Alfred\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Controllers\\WishlistsController.cs*",
-              "RelativeToolTip": "Controllers\\WishlistsController.cs*",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGgAAAApAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Alfred\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Controllers\\WishlistsController.cs",
+              "RelativeToolTip": "Controllers\\WishlistsController.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAAH0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T19:49:47.559Z",
               "EditorCaption": ""
@@ -113,9 +132,10 @@
               "RelativeDocumentMoniker": "eCommerceContext.cs",
               "ToolTip": "C:\\Users\\Alfred\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\eCommerceContext.cs",
               "RelativeToolTip": "eCommerceContext.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAACIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T21:08:52.815Z"
+              "WhenOpened": "2024-12-30T21:08:52.815Z",
+              "EditorCaption": ""
             }
           ]
         }

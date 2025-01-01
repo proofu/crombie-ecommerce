@@ -342,6 +342,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ProyectoeCommerce.Controllers.WishlistProductosController",
+    "Method": "AddProductToWishlist",
+    "RelativePath": "api/WishlistProductos/AddProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "wishlistId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "productoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProyectoeCommerce.Controllers.WishlistsController",
     "Method": "GetWishlists",
     "RelativePath": "api/Wishlists",
@@ -429,22 +450,6 @@
       {
         "Name": "dto",
         "Type": "ProyectoeCommerce.DTOs.WishlistDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ProyectoeCommerce.Controllers.WishlistsController",
-    "Method": "DeleteWishlist",
-    "RelativePath": "api/Wishlists/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
