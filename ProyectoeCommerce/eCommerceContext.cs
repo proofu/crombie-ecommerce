@@ -37,7 +37,7 @@ namespace ProyectoeCommerce
                 w.Property(w => w.Nombre).IsRequired().HasMaxLength(100);
 
                 w.HasOne(w => w.Usuario)
-                 .WithMany()
+                 .WithMany(u=>u.Wishlists)
                  .HasForeignKey(w => w.UsuarioId)
                  .OnDelete(DeleteBehavior.Cascade);
             });
