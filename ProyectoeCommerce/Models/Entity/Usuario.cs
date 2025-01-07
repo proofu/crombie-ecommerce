@@ -10,6 +10,7 @@ namespace ProyectoeCommerce.Models.Entity
         public string Nombre { get; set; }
         public string Email { get; set; }
         public string NumeroTelefono { get; set; }
+        public ICollection<Wishlist> Wishlists { get; set; }
 
     }
 }

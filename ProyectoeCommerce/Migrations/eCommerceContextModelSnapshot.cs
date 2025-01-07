@@ -278,7 +278,7 @@ namespace ProyectoeCommerce.Migrations
             modelBuilder.Entity("ProyectoeCommerce.Models.Entity.Wishlist", b =>
                 {
                     b.HasOne("ProyectoeCommerce.Models.Entity.Usuario", "Usuario")
-                        .WithMany()
+                        .WithMany("Wishlists")
                         .HasForeignKey("UsuarioId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -303,6 +303,11 @@ namespace ProyectoeCommerce.Migrations
                     b.Navigation("Producto");
 
                     b.Navigation("Wishlist");
+                });
+
+            modelBuilder.Entity("ProyectoeCommerce.Models.Entity.Usuario", b =>
+                {
+                    b.Navigation("Wishlists");
                 });
 
             modelBuilder.Entity("ProyectoeCommerce.Models.Entity.Wishlist", b =>

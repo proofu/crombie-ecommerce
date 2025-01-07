@@ -12,8 +12,8 @@ using ProyectoeCommerce;
 namespace ProyectoeCommerce.Migrations
 {
     [DbContext(typeof(eCommerceContext))]
-    [Migration("20241230154638_test")]
-    partial class test
+    [Migration("20241230200426_first")]
+    partial class first
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -283,7 +283,7 @@ namespace ProyectoeCommerce.Migrations
                     b.HasOne("ProyectoeCommerce.Models.Entity.Usuario", "Usuario")
                         .WithMany()
                         .HasForeignKey("UsuarioId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Usuario");
@@ -294,13 +294,13 @@ namespace ProyectoeCommerce.Migrations
                     b.HasOne("ProyectoeCommerce.Models.Entity.Producto", "Producto")
                         .WithMany()
                         .HasForeignKey("ProductoId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("ProyectoeCommerce.Models.Entity.Wishlist", "Wishlist")
                         .WithMany("WishlistProductos")
                         .HasForeignKey("WishlistId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Producto");
