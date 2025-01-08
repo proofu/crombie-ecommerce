@@ -10,6 +10,6 @@ namespace ProyectoeCommerce.Models.Entity
         [JsonIgnore]
 
         public Usuario Usuario { get; set; }
-        public ICollection<WishlistProducto> WishlistProductos { get; set; }
+        public  ICollection<WishlistProducto> WishlistProductos { get; set; }
     }
 }

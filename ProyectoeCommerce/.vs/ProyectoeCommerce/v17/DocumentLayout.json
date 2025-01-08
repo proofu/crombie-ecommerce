@@ -3,35 +3,51 @@
   "WorkspaceRootPath": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\ecommercecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:ecommercecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\models\\entity\\wishlistproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:models\\entity\\wishlistproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\models\\entity\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:models\\entity\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\models\\entity\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:models\\entity\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\models\\entity\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:models\\entity\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\dtos\\wishlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:dtos\\wishlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\dtos\\wishlistproductoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:dtos\\wishlistproductoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\dtos\\wishlistproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:dtos\\wishlistproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\migrations\\20241230200426_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:migrations\\20241230200426_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\models\\entity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:models\\entity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lugua\\AppData\\Local\\SourceServer\\a0e2e8e59ea86328ed3ec75ea928d5bf50272cc6125b59eff23f927cdd48c57a\\ProyectoeCommerce\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\services\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:services\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\models\\entity\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:models\\entity\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,59 +73,137 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WishlistDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\DTOs\\WishlistDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\WishlistDTO.cs",
+              "ToolTip": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\DTOs\\WishlistDTO.cs",
+              "RelativeToolTip": "DTOs\\WishlistDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T20:46:13.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "WishlistProductoUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\DTOs\\WishlistProductoUpdateDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\WishlistProductoUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\DTOs\\WishlistProductoUpdateDTO.cs",
+              "RelativeToolTip": "DTOs\\WishlistProductoUpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T22:54:44.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Models\\Entity\\Producto.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Producto.cs",
+              "ToolTip": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Models\\Entity\\Producto.cs",
+              "RelativeToolTip": "Models\\Entity\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T22:55:34.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Models\\Entity\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Usuario.cs",
+              "ToolTip": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Models\\Entity\\Usuario.cs",
+              "RelativeToolTip": "Models\\Entity\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T22:55:54.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Wishlist.cs",
+              "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Models\\Entity\\Wishlist.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Wishlist.cs",
+              "ToolTip": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Models\\Entity\\Wishlist.cs",
+              "RelativeToolTip": "Models\\Entity\\Wishlist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T22:57:15.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WishlistProducto.cs",
+              "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Models\\Entity\\WishlistProducto.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\WishlistProducto.cs",
+              "ToolTip": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Models\\Entity\\WishlistProducto.cs",
+              "RelativeToolTip": "Models\\Entity\\WishlistProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T22:57:56.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAmwDAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T22:00:18.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Services\\JwtService.cs",
-              "RelativeDocumentMoniker": "Services\\JwtService.cs",
-              "ToolTip": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Services\\JwtService.cs",
-              "RelativeToolTip": "Services\\JwtService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAWwCwAAAANAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "eCommerceContext.cs",
+              "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\eCommerceContext.cs",
+              "RelativeDocumentMoniker": "eCommerceContext.cs",
+              "ToolTip": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\eCommerceContext.cs",
+              "RelativeToolTip": "eCommerceContext.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAASwEcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T22:25:28.33Z",
+              "WhenOpened": "2025-01-08T22:59:00.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthResponse.cs",
-              "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Models\\Entity\\AuthResponse.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\AuthResponse.cs",
-              "ToolTip": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Models\\Entity\\AuthResponse.cs",
-              "RelativeToolTip": "Models\\Entity\\AuthResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "WishlistProductoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\DTOs\\WishlistProductoDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\WishlistProductoDTO.cs",
+              "ToolTip": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\DTOs\\WishlistProductoDTO.cs",
+              "RelativeToolTip": "DTOs\\WishlistProductoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T22:27:03.182Z",
+              "WhenOpened": "2025-01-08T22:54:35.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IJwtService.cs",
-              "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Services\\IJwtService.cs",
-              "RelativeDocumentMoniker": "Services\\IJwtService.cs",
-              "ToolTip": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Services\\IJwtService.cs",
-              "RelativeToolTip": "Services\\IJwtService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "20241230200426_first.cs",
+              "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Migrations\\20241230200426_first.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241230200426_first.cs",
+              "ToolTip": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Migrations\\20241230200426_first.cs",
+              "RelativeToolTip": "Migrations\\20241230200426_first.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T22:24:46.107Z",
+              "WhenOpened": "2025-01-08T22:55:00.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lugua\\AppData\\Local\\SourceServer\\a0e2e8e59ea86328ed3ec75ea928d5bf50272cc6125b59eff23f927cdd48c57a\\ProyectoeCommerce\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\a0e2e8e59ea86328ed3ec75ea928d5bf50272cc6125b59eff23f927cdd48c57a\\ProyectoeCommerce\\Program.cs",
@@ -122,20 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Models\\Entity\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Models\\Entity\\ApplicationUser.cs",
-              "RelativeToolTip": "Models\\Entity\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T22:15:18.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -144,19 +225,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-01-07T21:51:27.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WishlistDTO.cs",
-              "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\DTOs\\WishlistDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\WishlistDTO.cs",
-              "ToolTip": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\DTOs\\WishlistDTO.cs",
-              "RelativeToolTip": "DTOs\\WishlistDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T20:46:13.906Z",
               "EditorCaption": ""
             }
           ]
