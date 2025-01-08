@@ -51,6 +51,7 @@ namespace ProyectoeCommerce.Controllers
             return productos;
         }
 
+
         // POST: api/productos
         [HttpPost]
         public async Task<ActionResult<Producto>> PostProducto(Producto producto)
