@@ -1,5 +1,12 @@
 using Microsoft.EntityFrameworkCore;
 using ProyectoeCommerce;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.AspNetCore.Identity;
+using ProyectoeCommerce.Models;
+using ProyectoeCommerce.Services;
+using ProyectoeCommerce.Models.Entity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +16,40 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
         options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles);
+
+// Configuración de Identity
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<eCommerceContext>()
+    .AddDefaultTokenProviders();
+
+// Configuración de JWT
+var secretKey = builder.Configuration["JWT:SecretKey"];
+if (string.IsNullOrEmpty(secretKey))
+{
+    throw new ArgumentNullException(nameof(secretKey), "La clave secreta para JWT no puede ser nula o vacía.");
+}
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = false,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = builder.Configuration["JWT:ValidIssuer"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey))
+    };
+});
+
+
+// Registrar el servicio JWT
+builder.Services.AddScoped<IJwtService, JwtService>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -38,6 +79,8 @@ using (var scope = app.Services.CreateScope())
         Console.WriteLine("No se pudo conectar a la base de datos");
     }
 }
+
+
 
 app.UseHttpsRedirection();
 

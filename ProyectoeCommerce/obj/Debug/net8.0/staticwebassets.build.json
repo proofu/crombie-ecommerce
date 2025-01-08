@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "umgxO+mPud05Qe1exBvpW9JtYQg45ez0y08qqYjZqGc=",
+  "Hash": "egbI9P7amKDDeBDfdwVL+plIb52/11CpP47CNIurmlo=",
   "Source": "ProyectoeCommerce",
   "BasePath": "_content/ProyectoeCommerce",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
