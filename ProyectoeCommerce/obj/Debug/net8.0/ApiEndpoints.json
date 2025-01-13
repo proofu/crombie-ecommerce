@@ -227,7 +227,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "ProyectoeCommerce.Models.Entity.AuthenticateRequest",
+        "Type": "ProyectoeCommerce.Models.Entity.AuthRequest",
         "IsRequired": true
       }
     ],

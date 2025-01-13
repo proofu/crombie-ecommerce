@@ -79,6 +79,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSqlServer<eCommerceContext>(builder.Configuration.GetConnectionString("DefaultConnection"));
+builder.Services.AddScoped<PasswordHasher<Usuario>>();
 
 var app = builder.Build();
 

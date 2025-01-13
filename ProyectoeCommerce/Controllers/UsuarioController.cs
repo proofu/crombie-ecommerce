@@ -3,6 +3,7 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
@@ -16,7 +17,7 @@ namespace ProyectoeCommerce.Controllers
     public class UsuarioController : ControllerBase
     {
         private readonly eCommerceContext _context;
-        private readonly IPasswordHasher<Usuario> _passwordHasher;
+        private readonly PasswordHasher<Usuario> _passwordHasher;
         private readonly IConfiguration _configuration;
 
         public UsuarioController(eCommerceContext context, PasswordHasher<Usuario> passwordHasher, IConfiguration configuration)
@@ -25,10 +26,36 @@ namespace ProyectoeCommerce.Controllers
             _passwordHasher = passwordHasher;
             _configuration = configuration;
         }
-        [HttpPost("authenticate")]
-        public IActionResult Authenticate([FromBody] AuthenticateRequest request)
+        /*
+        [HttpPost("register")]
+        public IActionResult Register([FromBody] AuthRequest request)
         {
-            var loggingUser = GetUserByEmail(request.Email);
+            if (_context.Usuarios.Any(u => u.Nombre == request.Username))
+            {
+                return BadRequest("User already exists");
+            }
+
+            var newUser = new Usuario
+            {
+                Nombre = request.Username,
+                Role = "User" // Default role
+            };
+
+            // Hash the password
+            newUser.Password = _passwordHasher.HashPassword(newUser, request.Password);
+
+            // Save the user to the database
+            _context.Usuarios.Add(newUser);
+            _context.SaveChanges();
+
+            return Ok("User registered successfully");
+        }
+        */
+
+        [HttpPost("authenticate")]
+        public IActionResult Authenticate([FromBody] AuthRequest request)
+        {
+            var loggingUser = GetUserByEmail(request.Username);
             if (loggingUser == null)
             {
                 return Unauthorized("user not found");
