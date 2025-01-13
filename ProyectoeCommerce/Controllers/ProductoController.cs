@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProyectoeCommerce.Models.Entity;
@@ -17,6 +18,7 @@ namespace ProyectoeCommerce.Controllers
         }
 
         // GET: ProductoController/GetAll
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Producto>>> GetProductos()
         {

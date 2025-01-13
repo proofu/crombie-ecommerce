@@ -1,6 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using ProyectoeCommerce.Models.Entity;
 
 namespace ProyectoeCommerce.Controllers
@@ -10,12 +16,72 @@ namespace ProyectoeCommerce.Controllers
     public class UsuarioController : ControllerBase
     {
         private readonly eCommerceContext _context;
+        private readonly IPasswordHasher<Usuario> _passwordHasher;
+        private readonly IConfiguration _configuration;
 
-        public UsuarioController(eCommerceContext context)
+        public UsuarioController(eCommerceContext context, PasswordHasher<Usuario> passwordHasher, IConfiguration configuration)
         {
             _context = context;
+            _passwordHasher = passwordHasher;
+            _configuration = configuration;
         }
+        [HttpPost("authenticate")]
+        public IActionResult Authenticate([FromBody] AuthenticateRequest request)
+        {
+            var loggingUser = GetUserByEmail(request.Email);
+            if (loggingUser == null)
+            {
+                return Unauthorized("user not found");
+            }
+            // Verify the hashed password
+            PasswordVerificationResult isCorrectPassword = _passwordHasher.VerifyHashedPassword(
+                loggingUser, loggingUser.Password, request.Password);
 
+            if (isCorrectPassword == PasswordVerificationResult.Success)
+            {
+                // Generate and return the JWT token
+                string token = CreateJWTAuthToken(loggingUser);
+                return Ok(new { Token = token });
+            }
+            else
+            {
+                throw new Exception("Unable to authenticate");
+            }
+        }
+        [HttpGet("jwt-token")]
+        private string CreateJWTAuthToken(Usuario user)
+        {
+            // creando la JWT token
+            string secretKey = this._configuration["JWT:SECRET"] ?? "";
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+
+            if (secretKey == null)
+            {
+                throw new Exception("Unable to create token");
+            }
+
+
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity([
+                    new Claim(JwtRegisteredClaimNames.Name, user.Nombre),
+                    new Claim("Roles", user.Role) // incluye roles de usuario
+                ]),
+                Expires = DateTime.UtcNow.AddHours(1),
+                SigningCredentials = credentials,
+                Issuer = this._configuration["JWT:ISSUER"],
+                Audience = this._configuration["JWT:AUDIENCE"]
+            };
+            var handler = new Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler();
+            string token = handler.CreateToken(tokenDescriptor);
+            return token;
+        }
+        [HttpGet("email")]
+        public Usuario GetUserByEmail(string email)
+        {
+            return _context.Usuarios.FirstOrDefault(u => u.Email == email);
+        }
         // GET: UsuarioController/GetAll
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuarios()
