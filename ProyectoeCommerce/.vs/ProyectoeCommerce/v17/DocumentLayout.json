@@ -1,13 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\profu\\source\\repos\\crombie-ecommerce1\\ProyectoeCommerce\\",
+  "WorkspaceRootPath": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\profu\\source\\repos\\crombie-ecommerce1\\proyectoecommerce\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\profu\\source\\repos\\crombie-ecommerce1\\proyectoecommerce\\ecommercecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\lugua\\source\\repos\\crombie-ecommerce\\proyectoecommerce\\ecommercecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:ecommercecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,12 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -38,25 +42,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T15:13:09.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "Services\\LoginService.cs",
+              "ToolTip": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Services\\LoginService.cs",
+              "RelativeToolTip": "Services\\LoginService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwB8AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T14:59:33.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "eCommerceContext.cs",
-              "DocumentMoniker": "C:\\Users\\profu\\source\\repos\\crombie-ecommerce1\\ProyectoeCommerce\\eCommerceContext.cs",
+              "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\eCommerceContext.cs",
               "RelativeDocumentMoniker": "eCommerceContext.cs",
-              "ToolTip": "C:\\Users\\profu\\source\\repos\\crombie-ecommerce1\\ProyectoeCommerce\\eCommerceContext.cs",
+              "ToolTip": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\eCommerceContext.cs",
               "RelativeToolTip": "eCommerceContext.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAwwFMAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAP0AAAAAAAAAAAAwwFMAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T23:19:13.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\profu\\source\\repos\\crombie-ecommerce1\\ProyectoeCommerce\\Controllers\\UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\profu\\source\\repos\\crombie-ecommerce1\\ProyectoeCommerce\\Controllers\\UsuarioController.cs*",
-              "RelativeToolTip": "Controllers\\UsuarioController.cs*",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAewFIAAAAgAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\lugua\\source\\repos\\crombie-ecommerce\\ProyectoeCommerce\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAmwGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T20:58:53.133Z",
               "EditorCaption": ""

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\profu\\Source\\Repos\\crombie-ecommerce1\\ProyectoeCommerce\\ProyectoeCommerce.csproj": {}
+    "C:\\Users\\lugua\\Source\\Repos\\crombie-ecommerce\\ProyectoeCommerce\\ProyectoeCommerce.csproj": {}
   },
   "projects": {
-    "C:\\Users\\profu\\Source\\Repos\\crombie-ecommerce1\\ProyectoeCommerce\\ProyectoeCommerce.csproj": {
+    "C:\\Users\\lugua\\Source\\Repos\\crombie-ecommerce\\ProyectoeCommerce\\ProyectoeCommerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\profu\\Source\\Repos\\crombie-ecommerce1\\ProyectoeCommerce\\ProyectoeCommerce.csproj",
+        "projectUniqueName": "C:\\Users\\lugua\\Source\\Repos\\crombie-ecommerce\\ProyectoeCommerce\\ProyectoeCommerce.csproj",
         "projectName": "ProyectoeCommerce",
-        "projectPath": "C:\\Users\\profu\\Source\\Repos\\crombie-ecommerce1\\ProyectoeCommerce\\ProyectoeCommerce.csproj",
-        "packagesPath": "C:\\Users\\profu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\profu\\Source\\Repos\\crombie-ecommerce1\\ProyectoeCommerce\\obj\\",
+        "projectPath": "C:\\Users\\lugua\\Source\\Repos\\crombie-ecommerce\\ProyectoeCommerce\\ProyectoeCommerce.csproj",
+        "packagesPath": "C:\\Users\\lugua\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lugua\\Source\\Repos\\crombie-ecommerce\\ProyectoeCommerce\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\profu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lugua\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -260,6 +260,22 @@
     ]
   },
   {
+    "ContainingType": "ProyectoeCommerce.Controllers.UsuarioController",
+    "Method": "Register",
+    "RelativePath": "api/Usuario/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ProyectoeCommerce.Models.Entity.AuthRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProyectoeCommerce.Controllers.WishlistProductosController",
     "Method": "GetWishlistProductos",
     "RelativePath": "api/WishlistProductos",

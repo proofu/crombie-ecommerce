@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using ProyectoeCommerce.Models;
 using ProyectoeCommerce.Services;
 using ProyectoeCommerce.Models.Entity;
+using ProyectoeCommerce.Services.Auth;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -80,6 +81,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSqlServer<eCommerceContext>(builder.Configuration.GetConnectionString("DefaultConnection"));
 builder.Services.AddScoped<PasswordHasher<Usuario>>();
+builder.Services.AddScoped<LoginService>();
 
 var app = builder.Build();
 
@@ -111,6 +113,7 @@ using (var scope = app.Services.CreateScope())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
 app.UseAuthentication();
 
 app.MapControllers();

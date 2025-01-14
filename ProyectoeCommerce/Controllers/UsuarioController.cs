@@ -9,6 +9,7 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using ProyectoeCommerce.Models.Entity;
+using ProyectoeCommerce.Services.Auth;
 
 namespace ProyectoeCommerce.Controllers
 {
@@ -17,40 +18,53 @@ namespace ProyectoeCommerce.Controllers
     public class UsuarioController : ControllerBase
     {
         private readonly eCommerceContext _context;
-        private readonly PasswordHasher<Usuario> _passwordHasher;
+        private readonly PasswordHasher<Usuario> _passwordHasher;    
+        private readonly LoginService _loginService;                 
         private readonly IConfiguration _configuration;
 
-        public UsuarioController(eCommerceContext context, PasswordHasher<Usuario> passwordHasher, IConfiguration configuration)
+        public UsuarioController(
+            eCommerceContext context,
+            PasswordHasher<Usuario> passwordHasher,
+            LoginService loginService,
+            IConfiguration configuration)
         {
             _context = context;
             _passwordHasher = passwordHasher;
+            _loginService = loginService;
             _configuration = configuration;
         }
-        /*
         [HttpPost("register")]
-        public IActionResult Register([FromBody] AuthRequest request)
+        public async Task<IActionResult> Register([FromBody] AuthRequest request)
         {
-            if (_context.Usuarios.Any(u => u.Nombre == request.Username))
+            if (_context.Usuarios.Any(u => u.Email == request.Username))
             {
-                return BadRequest("User already exists");
+                return BadRequest("Email already exists");
             }
 
+            // Enfoque anterior (mantenido como referencia)
+            /*
             var newUser = new Usuario
             {
                 Nombre = request.Username,
-                Role = "User" // Default role
+                Email = request.Username,
+                Role = "User"
             };
-
-            // Hash the password
             newUser.Password = _passwordHasher.HashPassword(newUser, request.Password);
+            */
 
-            // Save the user to the database
+            //usando LoginService
+            var newUser = _loginService.Register(
+                nombre: request.Username,
+                email: request.Username,
+                numeroTelefono: "",
+                password: request.Password
+            );
+
             _context.Usuarios.Add(newUser);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
 
             return Ok("User registered successfully");
         }
-        */
 
         [HttpPost("authenticate")]
         public IActionResult Authenticate([FromBody] AuthRequest request)
@@ -60,20 +74,18 @@ namespace ProyectoeCommerce.Controllers
             {
                 return Unauthorized("user not found");
             }
-            // Verify the hashed password
+
+            // Método con PasswordHasher
             PasswordVerificationResult isCorrectPassword = _passwordHasher.VerifyHashedPassword(
                 loggingUser, loggingUser.Password, request.Password);
 
             if (isCorrectPassword == PasswordVerificationResult.Success)
             {
-                // Generate and return the JWT token
                 string token = CreateJWTAuthToken(loggingUser);
                 return Ok(new { Token = token });
             }
-            else
-            {
-                throw new Exception("Unable to authenticate");
-            }
+
+            throw new Exception("Unable to authenticate");
         }
         [HttpGet("jwt-token")]
         private string CreateJWTAuthToken(Usuario user)
