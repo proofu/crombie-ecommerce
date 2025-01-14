@@ -79,7 +79,9 @@ namespace ProyectoeCommerce.Controllers
         private string CreateJWTAuthToken(Usuario user)
         {
             // creando la JWT token
-            string secretKey = this._configuration["JWT:SECRET"] ?? "";
+            //string secretKey = this._configuration["JWT:SECRET"] ?? "";
+            string secretKey = "a-very-long-secret-key-that-is-at-least-16-characters";
+
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 

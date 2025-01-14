@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\profu\\source\\repos\\crombie-ecommerce1\\proyectoecommerce\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|c:\\users\\profu\\source\\repos\\crombie-ecommerce1\\proyectoecommerce\\ecommercecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC9252C7-64C5-4758-9DA3-C426D702523E}|ProyectoeCommerce.csproj|solutionrelative:ecommercecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,13 +38,25 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "eCommerceContext.cs",
+              "DocumentMoniker": "C:\\Users\\profu\\source\\repos\\crombie-ecommerce1\\ProyectoeCommerce\\eCommerceContext.cs",
+              "RelativeDocumentMoniker": "eCommerceContext.cs",
+              "ToolTip": "C:\\Users\\profu\\source\\repos\\crombie-ecommerce1\\ProyectoeCommerce\\eCommerceContext.cs",
+              "RelativeToolTip": "eCommerceContext.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAwwFMAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T23:19:13.586Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\profu\\source\\repos\\crombie-ecommerce1\\ProyectoeCommerce\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\profu\\source\\repos\\crombie-ecommerce1\\ProyectoeCommerce\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAUwDwAAAAZAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\profu\\source\\repos\\crombie-ecommerce1\\ProyectoeCommerce\\Controllers\\UsuarioController.cs*",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs*",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAewFIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T20:58:53.133Z",
               "EditorCaption": ""
