@@ -268,8 +268,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "ProyectoeCommerce.Models.Entity.AuthRequest",
+        "Name": "dto",
+        "Type": "ProyectoeCommerce.DTOs.RegisterRequestDto",
         "IsRequired": true
       }
     ],

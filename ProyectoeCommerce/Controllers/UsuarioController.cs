@@ -1,6 +1,7 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Humanizer;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.Data;
@@ -8,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using ProyectoeCommerce.DTOs;
 using ProyectoeCommerce.Models.Entity;
 using ProyectoeCommerce.Services.Auth;
 
@@ -34,9 +36,9 @@ namespace ProyectoeCommerce.Controllers
             _configuration = configuration;
         }
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] AuthRequest request)
+        public async Task<IActionResult> Register([FromBody] RegisterRequestDto dto)
         {
-            if (_context.Usuarios.Any(u => u.Email == request.Username))
+            if (_context.Usuarios.Any(u => u.Email == dto.Email))
             {
                 return BadRequest("Email already exists");
             }
@@ -54,10 +56,10 @@ namespace ProyectoeCommerce.Controllers
 
             //usando LoginService
             var newUser = _loginService.Register(
-                nombre: request.Username,
-                email: request.Username,
-                numeroTelefono: "",
-                password: request.Password
+                nombre: dto.Nombre,
+                email: dto.Email,
+                numeroTelefono: dto.NumeroTelefono,
+                password: dto.Password
             );
 
             _context.Usuarios.Add(newUser);
