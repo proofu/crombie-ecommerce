@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using ProyectoeCommerce.Models.Entity;
 using System;
 
@@ -6,6 +8,13 @@ namespace ProyectoeCommerce
 {
     public class eCommerceContext : DbContext
     {
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            base.OnConfiguring(optionsBuilder);
+
+            optionsBuilder
+                .ConfigureWarnings(warnings => warnings.Ignore(RelationalEventId.PendingModelChangesWarning));
+        }
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Producto> Productos { get; set; }
         public DbSet<Wishlist> Wishlists { get; set; }
@@ -29,6 +38,8 @@ namespace ProyectoeCommerce
                 u.Property(u => u.Nombre).IsRequired().HasMaxLength(100);
                 u.Property(u => u.Email).HasMaxLength(100);
                 u.Property(u => u.NumeroTelefono).HasMaxLength(20);
+                u.Property(u => u.Password).HasMaxLength(255);
+                u.Property(u => u.Role).IsRequired().HasMaxLength(50);
             });
 
             modelBuilder.Entity<Wishlist>(w =>
@@ -37,7 +48,7 @@ namespace ProyectoeCommerce
                 w.Property(w => w.Nombre).IsRequired().HasMaxLength(100);
 
                 w.HasOne(w => w.Usuario)
-                 .WithMany(u=>u.Wishlists)
+                 .WithMany(u => u.Wishlists)
                  .HasForeignKey(w => w.UsuarioId)
                  .OnDelete(DeleteBehavior.Cascade);
             });
@@ -61,15 +72,144 @@ namespace ProyectoeCommerce
                 wp.Property(wp => wp.FechaProductoAgregado).IsRequired();
             });
 
-
+            var passwordHasher = new PasswordHasher<Usuario>();
+            modelBuilder.Entity<Usuario>().HasData(
+                 new Usuario
+                 {
+                     Id = 1,
+                     Nombre = "Admin User 1",
+                     Email = "admin1@example.com",
+                     NumeroTelefono = "1234567890",
+                     Role = "Admin",
+                     Password = passwordHasher.HashPassword(null, "AdminPass1!")
+                 },
+        new Usuario
+        {
+            Id = 2,
+            Nombre = "Admin User 2",
+            Email = "admin2@example.com",
+            NumeroTelefono = "1234567891",
+            Role = "Admin",
+            Password = passwordHasher.HashPassword(null, "AdminPass2!")
+        },
+        new Usuario
+        {
+            Id = 3,
+            Nombre = "Test User 1",
+            Email = "testuser1@example.com",
+            NumeroTelefono = "1234567892",
+            Role = "User",
+            Password = passwordHasher.HashPassword(null, "UserPass1!")
+        },
+        new Usuario
+        {
+            Id = 4,
+            Nombre = "Test User 2",
+            Email = "testuser2@example.com",
+            NumeroTelefono = "1234567893",
+            Role = "User",
+            Password = passwordHasher.HashPassword(null, "UserPass2!")
+        },
+        new Usuario
+        {
+            Id = 5,
+            Nombre = "Test User 3",
+            Email = "testuser3@example.com",
+            NumeroTelefono = "1234567894",
+            Role = "User",
+            Password = passwordHasher.HashPassword(null, "UserPass3!")
+        },
+        new Usuario
+        {
+            Id = 6,
+            Nombre = "Test User 4",
+            Email = "testuser4@example.com",
+            NumeroTelefono = "1234567895",
+            Role = "User",
+            Password = passwordHasher.HashPassword(null, "UserPass4!")
+        },
+        new Usuario
+        {
+            Id = 7,
+            Nombre = "Admin User 3",
+            Email = "admin3@example.com",
+            NumeroTelefono = "1234567896",
+            Role = "Admin",
+            Password = passwordHasher.HashPassword(null, "AdminPass3!")
+        },
+        new Usuario
+        {
+            Id = 8,
+            Nombre = "Test User 5",
+            Email = "testuser5@example.com",
+            NumeroTelefono = "1234567897",
+            Role = "User",
+            Password = passwordHasher.HashPassword(null, "UserPass5!")
+        },
+        new Usuario
+        {
+            Id = 9,
+            Nombre = "Test User 6",
+            Email = "testuser6@example.com",
+            NumeroTelefono = "1234567898",
+            Role = "User",
+            Password = passwordHasher.HashPassword(null, "UserPass6!")
+        },
+        new Usuario
+        {
+            Id = 10,
+            Nombre = "Test User 7",
+            Email = "testuser7@example.com",
+            NumeroTelefono = "1234567899",
+            Role = "User",
+            Password = passwordHasher.HashPassword(null, "UserPass7!")
+        });
+            /*
             // Datos Iniciales
             modelBuilder.Entity<Usuario>().HasData(
-                new Usuario { Id = 1, Nombre = "Juan Pérez", Email = "juan@example.com", NumeroTelefono = "1234567890" },
-                new Usuario { Id = 2, Nombre = "Ana López", Email = "ana@example.com", NumeroTelefono = "9876543210" },
-                new Usuario { Id = 3, Nombre = "Carlos Díaz", Email = "carlos@example.com", NumeroTelefono = "5551234567" },
-                new Usuario { Id = 4, Nombre = "Luisa Gómez", Email = "luisa@example.com", NumeroTelefono = "4449876543" },
-                new Usuario { Id = 5, Nombre = "María Torres", Email = "maria@example.com", NumeroTelefono = "3336669999" }
-            );
+            new Usuario
+            {
+                Id = 1,
+                Nombre = "John Doe",
+                Email = "john.doe@example.com",
+                NumeroTelefono = "1234567890",
+                Password = "hashed_password_1", // Replace with hashed values if using hashing        Role = "Admin"
+            },
+            new Usuario
+            {
+                Id = 2,
+                Nombre = "Jane Smith",
+                Email = "jane.smith@example.com",
+                NumeroTelefono = "9876543210",
+                Password = "hashed_password_2", // Replace with hashed values        Role = "User"
+            },
+            new Usuario
+            {
+                Id = 3,
+                Nombre = "Alice Johnson",
+                Email = "alice.johnson@example.com",
+                NumeroTelefono = "4567891230",
+                Password = "hashed_password_3", // Replace with hashed values        Role = "User"
+            },
+            new Usuario
+            {
+                Id = 4,
+                Nombre = "Bob Brown",
+                Email = "bob.brown@example.com",
+                NumeroTelefono = "3216549870",
+                Password = "hashed_password_4", // Replace with hashed values        Role = "Moderator"
+            },
+            new Usuario
+            {
+                Id = 5,
+                Nombre = "Charlie Davis",
+                Email = "charlie.davis@example.com",
+                NumeroTelefono = "6549873210",
+                Password = "hashed_password_5", // Replace with hashed values        Role = "User"
+            }
+);
+             */
+
 
             modelBuilder.Entity<Producto>().HasData(
                 new Producto { Id = 1, Nombre = "Laptop", Descripcion = "Laptop moderna y rápida", Precio = 800.99 },

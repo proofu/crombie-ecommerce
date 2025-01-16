@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProyectoeCommerce;
 
@@ -11,9 +12,11 @@ using ProyectoeCommerce;
 namespace ProyectoeCommerce.Migrations
 {
     [DbContext(typeof(eCommerceContext))]
-    partial class eCommerceContextModelSnapshot : ModelSnapshot
+    [Migration("20250111211717_modify-user-auth")]
+    partial class modifyuserauth
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -110,13 +113,12 @@ namespace ProyectoeCommerce.Migrations
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.Property<string>("Role")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -126,91 +128,46 @@ namespace ProyectoeCommerce.Migrations
                         new
                         {
                             Id = 1,
-                            Email = "admin1@example.com",
-                            Nombre = "Admin User 1",
+                            Email = "john.doe@example.com",
+                            Nombre = "John Doe",
                             NumeroTelefono = "1234567890",
-                            Password = "AQAAAAIAAYagAAAAECq4qTajVNAbff870kXGsbLlobL0IyCaie5BLEJv7pLIFukW7eyxN/ThWMZUJGzWDQ==",
-                            Role = "Admin"
+                            Password = "hashed_password_1",
+                            Role = "User"
                         },
                         new
                         {
                             Id = 2,
-                            Email = "admin2@example.com",
-                            Nombre = "Admin User 2",
-                            NumeroTelefono = "1234567891",
-                            Password = "AQAAAAIAAYagAAAAEMmXi+0S0xEeSpqFMlSvkaIMsSegRplabTWbx8ICwDZXmTs+qiGs230Ss3XsPtb/WQ==",
-                            Role = "Admin"
+                            Email = "jane.smith@example.com",
+                            Nombre = "Jane Smith",
+                            NumeroTelefono = "9876543210",
+                            Password = "hashed_password_2",
+                            Role = "User"
                         },
                         new
                         {
                             Id = 3,
-                            Email = "testuser1@example.com",
-                            Nombre = "Test User 1",
-                            NumeroTelefono = "1234567892",
-                            Password = "AQAAAAIAAYagAAAAEOPj5iS+ihOJy3RpogzaYQ93vqltm73XB/A9+d2hbTqTzYy2t0N5azQczSMs/SGUNg==",
+                            Email = "alice.johnson@example.com",
+                            Nombre = "Alice Johnson",
+                            NumeroTelefono = "4567891230",
+                            Password = "hashed_password_3",
                             Role = "User"
                         },
                         new
                         {
                             Id = 4,
-                            Email = "testuser2@example.com",
-                            Nombre = "Test User 2",
-                            NumeroTelefono = "1234567893",
-                            Password = "AQAAAAIAAYagAAAAEJyazc3L4ieqhPOXwk4bvIfSwhGz9R6ST6OjLOU1WWZn/I74tZPZSWk7x+HibzQ+Dg==",
+                            Email = "bob.brown@example.com",
+                            Nombre = "Bob Brown",
+                            NumeroTelefono = "3216549870",
+                            Password = "hashed_password_4",
                             Role = "User"
                         },
                         new
                         {
                             Id = 5,
-                            Email = "testuser3@example.com",
-                            Nombre = "Test User 3",
-                            NumeroTelefono = "1234567894",
-                            Password = "AQAAAAIAAYagAAAAEKMeLhYr/mI5ejkqjotNcyWRm+4BoPZESU6hODScavZ48jKOpZCkNe0ggpDmc+mZ2w==",
-                            Role = "User"
-                        },
-                        new
-                        {
-                            Id = 6,
-                            Email = "testuser4@example.com",
-                            Nombre = "Test User 4",
-                            NumeroTelefono = "1234567895",
-                            Password = "AQAAAAIAAYagAAAAECOvyslOtrWCfZT+n042DIlr217YQO5vwjZCY3L5cdOm5Qxdh4yRS/UVuwVoM8RKXg==",
-                            Role = "User"
-                        },
-                        new
-                        {
-                            Id = 7,
-                            Email = "admin3@example.com",
-                            Nombre = "Admin User 3",
-                            NumeroTelefono = "1234567896",
-                            Password = "AQAAAAIAAYagAAAAEIaPOhhh5EoUC+5PoRe2j0KKCeM2ufjwMSHXjtoledPJmtFZQuPu9kVb9Qs50JD6hw==",
-                            Role = "Admin"
-                        },
-                        new
-                        {
-                            Id = 8,
-                            Email = "testuser5@example.com",
-                            Nombre = "Test User 5",
-                            NumeroTelefono = "1234567897",
-                            Password = "AQAAAAIAAYagAAAAENx162XU39POnuAOlfzE2x0X6qLTvt1sq45ZhvNFTP/6344kaNfbMLJPEJuRlUNnkw==",
-                            Role = "User"
-                        },
-                        new
-                        {
-                            Id = 9,
-                            Email = "testuser6@example.com",
-                            Nombre = "Test User 6",
-                            NumeroTelefono = "1234567898",
-                            Password = "AQAAAAIAAYagAAAAELGtYsE8J/NpFFg4R3rXyI3RFumN/WLeNeVQr/wO5Xuk2vhDLPf0Tl7uNlu/FDvQsw==",
-                            Role = "User"
-                        },
-                        new
-                        {
-                            Id = 10,
-                            Email = "testuser7@example.com",
-                            Nombre = "Test User 7",
-                            NumeroTelefono = "1234567899",
-                            Password = "AQAAAAIAAYagAAAAEOGbKXWqNfkst+gag8torjLRzrrMsPpERCrRwcVTpBZSA6kSmXSwqbPewkWy2PJ6YA==",
+                            Email = "charlie.davis@example.com",
+                            Nombre = "Charlie Davis",
+                            NumeroTelefono = "6549873210",
+                            Password = "hashed_password_5",
                             Role = "User"
                         });
                 });

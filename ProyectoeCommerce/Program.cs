@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using ProyectoeCommerce.Models;
 using ProyectoeCommerce.Services;
 using ProyectoeCommerce.Models.Entity;
+using ProyectoeCommerce.Services.Auth;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +17,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
         options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles);
-
+/*
 // Configuración de Identity
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<eCommerceContext>()
@@ -50,11 +51,37 @@ builder.Services.AddAuthentication(options =>
 
 // Registrar el servicio JWT
 builder.Services.AddScoped<IJwtService, JwtService>();
+ */
+
+
+builder.Services.AddAuthorization();
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(o =>
+{
+
+    o.RequireHttpsMetadata = false;
+    o.TokenValidationParameters = new TokenValidationParameters
+    {
+        /*
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT: SECRET"])),
+        ValidIssuer = builder.Configuration["JWT: ISSUER"],
+        ValidAudience = builder.Configuration["JWT: AUDIENCE"],
+         */
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("your-very-secure-secret-key")),
+        ValidIssuer = builder.Configuration["custom-issuer"],
+        ValidAudience = builder.Configuration["custom-audience"],
+        RoleClaimType = "Role",
+        ClockSkew = TimeSpan.Zero,
+    };
+});
+
+
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSqlServer<eCommerceContext>(builder.Configuration.GetConnectionString("DefaultConnection"));
+builder.Services.AddScoped<PasswordHasher<Usuario>>();
+builder.Services.AddScoped<LoginService>();
 
 var app = builder.Build();
 
@@ -63,6 +90,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    
 }
 
 
@@ -85,6 +113,8 @@ using (var scope = app.Services.CreateScope())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseAuthentication();
 
 app.MapControllers();
 

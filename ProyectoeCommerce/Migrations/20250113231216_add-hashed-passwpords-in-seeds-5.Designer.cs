@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProyectoeCommerce;
 
@@ -11,9 +12,11 @@ using ProyectoeCommerce;
 namespace ProyectoeCommerce.Migrations
 {
     [DbContext(typeof(eCommerceContext))]
-    partial class eCommerceContextModelSnapshot : ModelSnapshot
+    [Migration("20250113231216_add-hashed-passwpords-in-seeds-5")]
+    partial class addhashedpasswpordsinseeds5
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -129,7 +132,7 @@ namespace ProyectoeCommerce.Migrations
                             Email = "admin1@example.com",
                             Nombre = "Admin User 1",
                             NumeroTelefono = "1234567890",
-                            Password = "AQAAAAIAAYagAAAAECq4qTajVNAbff870kXGsbLlobL0IyCaie5BLEJv7pLIFukW7eyxN/ThWMZUJGzWDQ==",
+                            Password = "AQAAAAIAAYagAAAAEHjAWkN+Y7Q1oce4X8NtZAUwKU4aNWVPuyMMmtvZzlP76vdZGQfmD6k/lC/h5t61Uw==",
                             Role = "Admin"
                         },
                         new
@@ -138,7 +141,7 @@ namespace ProyectoeCommerce.Migrations
                             Email = "admin2@example.com",
                             Nombre = "Admin User 2",
                             NumeroTelefono = "1234567891",
-                            Password = "AQAAAAIAAYagAAAAEMmXi+0S0xEeSpqFMlSvkaIMsSegRplabTWbx8ICwDZXmTs+qiGs230Ss3XsPtb/WQ==",
+                            Password = "AQAAAAIAAYagAAAAENOixQmbDMm4i3SWt/rrymBid0PzUNf0TrpYYLxQ+GxNbeBSU86IP7KredW0lxnU6Q==",
                             Role = "Admin"
                         },
                         new
@@ -147,7 +150,7 @@ namespace ProyectoeCommerce.Migrations
                             Email = "testuser1@example.com",
                             Nombre = "Test User 1",
                             NumeroTelefono = "1234567892",
-                            Password = "AQAAAAIAAYagAAAAEOPj5iS+ihOJy3RpogzaYQ93vqltm73XB/A9+d2hbTqTzYy2t0N5azQczSMs/SGUNg==",
+                            Password = "AQAAAAIAAYagAAAAEPRKFHl6v++8Jsyg6ylYJC4m9a+cmWd1ytIygwHn/tmGJuQscItnWtGu4UnlET9LtA==",
                             Role = "User"
                         },
                         new
@@ -156,7 +159,7 @@ namespace ProyectoeCommerce.Migrations
                             Email = "testuser2@example.com",
                             Nombre = "Test User 2",
                             NumeroTelefono = "1234567893",
-                            Password = "AQAAAAIAAYagAAAAEJyazc3L4ieqhPOXwk4bvIfSwhGz9R6ST6OjLOU1WWZn/I74tZPZSWk7x+HibzQ+Dg==",
+                            Password = "AQAAAAIAAYagAAAAEA4ipEs/fQkPzPaSU1xNuDWQ0YEOnqTnU6ZOBlcbQwi9Pskh38gfM785plmnvTGngw==",
                             Role = "User"
                         },
                         new
@@ -165,7 +168,7 @@ namespace ProyectoeCommerce.Migrations
                             Email = "testuser3@example.com",
                             Nombre = "Test User 3",
                             NumeroTelefono = "1234567894",
-                            Password = "AQAAAAIAAYagAAAAEKMeLhYr/mI5ejkqjotNcyWRm+4BoPZESU6hODScavZ48jKOpZCkNe0ggpDmc+mZ2w==",
+                            Password = "AQAAAAIAAYagAAAAEBjVcFSOinTo3TpO/9hd1B9ODXEqc/jc0YGVWbfLnwFJBfPXocofGk/aREl6ik5iEA==",
                             Role = "User"
                         },
                         new
@@ -174,7 +177,7 @@ namespace ProyectoeCommerce.Migrations
                             Email = "testuser4@example.com",
                             Nombre = "Test User 4",
                             NumeroTelefono = "1234567895",
-                            Password = "AQAAAAIAAYagAAAAECOvyslOtrWCfZT+n042DIlr217YQO5vwjZCY3L5cdOm5Qxdh4yRS/UVuwVoM8RKXg==",
+                            Password = "AQAAAAIAAYagAAAAEObi6MSDNP+62nkN7gwW+Z3mtKEsGaYrwdViqrGV2u4APXTWeZXRakww2Y4DF6JoBg==",
                             Role = "User"
                         },
                         new
@@ -183,7 +186,7 @@ namespace ProyectoeCommerce.Migrations
                             Email = "admin3@example.com",
                             Nombre = "Admin User 3",
                             NumeroTelefono = "1234567896",
-                            Password = "AQAAAAIAAYagAAAAEIaPOhhh5EoUC+5PoRe2j0KKCeM2ufjwMSHXjtoledPJmtFZQuPu9kVb9Qs50JD6hw==",
+                            Password = "AQAAAAIAAYagAAAAEDvd5hWUC0Qx91U6XuEoelcTtzsAJn1l7HD5bdiyYBnFBgaILkb6iPrf//8ZooQm3g==",
                             Role = "Admin"
                         },
                         new
@@ -192,7 +195,7 @@ namespace ProyectoeCommerce.Migrations
                             Email = "testuser5@example.com",
                             Nombre = "Test User 5",
                             NumeroTelefono = "1234567897",
-                            Password = "AQAAAAIAAYagAAAAENx162XU39POnuAOlfzE2x0X6qLTvt1sq45ZhvNFTP/6344kaNfbMLJPEJuRlUNnkw==",
+                            Password = "AQAAAAIAAYagAAAAEIEkhPASpAcY437nCZ5aKH0XgQSfIl+H0EtF73D7TNVHGeq+EZTQ2iSEZUCz8GeBcQ==",
                             Role = "User"
                         },
                         new
@@ -201,7 +204,7 @@ namespace ProyectoeCommerce.Migrations
                             Email = "testuser6@example.com",
                             Nombre = "Test User 6",
                             NumeroTelefono = "1234567898",
-                            Password = "AQAAAAIAAYagAAAAELGtYsE8J/NpFFg4R3rXyI3RFumN/WLeNeVQr/wO5Xuk2vhDLPf0Tl7uNlu/FDvQsw==",
+                            Password = "AQAAAAIAAYagAAAAEFnS9sjquuxTzKrGs69HhhNhum3M20M5CsRj4Z5CpBNCJfP+Ixx7+o6rvuaj+dmyJw==",
                             Role = "User"
                         },
                         new
@@ -210,7 +213,7 @@ namespace ProyectoeCommerce.Migrations
                             Email = "testuser7@example.com",
                             Nombre = "Test User 7",
                             NumeroTelefono = "1234567899",
-                            Password = "AQAAAAIAAYagAAAAEOGbKXWqNfkst+gag8torjLRzrrMsPpERCrRwcVTpBZSA6kSmXSwqbPewkWy2PJ6YA==",
+                            Password = "AQAAAAIAAYagAAAAECAtE4Ibq1QksEOsI3Ovj9ML+W2da2vP8ZDxIEZIcWl+eZXpQ5SPwVZBnGsQRLX8gw==",
                             Role = "User"
                         });
                 });

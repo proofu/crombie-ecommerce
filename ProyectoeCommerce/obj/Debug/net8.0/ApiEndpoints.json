@@ -218,6 +218,64 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ProyectoeCommerce.Controllers.UsuarioController",
+    "Method": "Authenticate",
+    "RelativePath": "api/Usuario/authenticate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ProyectoeCommerce.Models.Entity.AuthRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoeCommerce.Controllers.UsuarioController",
+    "Method": "GetUserByEmail",
+    "RelativePath": "api/Usuario/email",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProyectoeCommerce.Models.Entity.Usuario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProyectoeCommerce.Controllers.UsuarioController",
+    "Method": "Register",
+    "RelativePath": "api/Usuario/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ProyectoeCommerce.DTOs.RegisterRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProyectoeCommerce.Controllers.WishlistProductosController",
     "Method": "GetWishlistProductos",
     "RelativePath": "api/WishlistProductos",
