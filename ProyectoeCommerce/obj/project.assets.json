@@ -8095,23 +8095,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lugua\\.nuget\\packages\\": {},
+    "C:\\Users\\alfred\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lugua\\Source\\Repos\\crombie-ecommerce\\ProyectoeCommerce\\ProyectoeCommerce.csproj",
+      "projectUniqueName": "C:\\Users\\alfred\\Source\\Repos\\crombie-ecommerce-1\\ProyectoeCommerce\\ProyectoeCommerce.csproj",
       "projectName": "ProyectoeCommerce",
-      "projectPath": "C:\\Users\\lugua\\Source\\Repos\\crombie-ecommerce\\ProyectoeCommerce\\ProyectoeCommerce.csproj",
-      "packagesPath": "C:\\Users\\lugua\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lugua\\Source\\Repos\\crombie-ecommerce\\ProyectoeCommerce\\obj\\",
+      "projectPath": "C:\\Users\\alfred\\Source\\Repos\\crombie-ecommerce-1\\ProyectoeCommerce\\ProyectoeCommerce.csproj",
+      "packagesPath": "C:\\Users\\alfred\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alfred\\Source\\Repos\\crombie-ecommerce-1\\ProyectoeCommerce\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lugua\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alfred\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8120,7 +8120,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8205,7 +8204,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

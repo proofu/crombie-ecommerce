@@ -1,6 +1,0 @@
-@ProyectoeCommerce_HostAddress = http://localhost:5260
-
-GET {{ProyectoeCommerce_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

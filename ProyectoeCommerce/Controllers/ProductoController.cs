@@ -18,7 +18,6 @@ namespace ProyectoeCommerce.Controllers
         }
 
         // GET: ProductoController/GetAll
-        [Authorize]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Producto>>> GetProductos()
         {
